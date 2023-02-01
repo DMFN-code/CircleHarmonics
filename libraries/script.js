@@ -12,7 +12,6 @@ function setup() {
 	addEventListener("resize", () => {
 		BOUNDS.x = window.innerWidth;
 		BOUNDS.y = window.innerHeight;
-		circles[0].
 		createCanvas(BOUNDS.x, BOUNDS.y);
 		background(0);
 		stroke(255,16);
